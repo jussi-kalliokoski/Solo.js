@@ -1,0 +1,28 @@
+{
+  "name": "solo",
+  "version": "0.0.0",
+  "author": "Jussi Kalliokoski <jussi.kalliokoski@gmail.com>",
+  "license": "ISC",
+  "description": "Make sure things happen one at a time, using promises.",
+  "homepage": "https://github.com/jussi-kalliokoski/solo",
+  "main": "dist/solo.js",
+  "ignore": [
+    "**/*",
+    "!dist/solo.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jussi-kalliokoski/solo"
+  },
+  "keywords": [
+    "promise",
+    "queue",
+    "task"
+  ],
+  "bugs": {
+    "url": "https://github.com/jussi-kalliokoski/solo/issues"
+  },
+  "devDependencies": {
+    "es5-shim": "~4.0.1"
+  }
+}
